@@ -2,20 +2,21 @@
 # Expense Tracker
 
 I created this app based on a home assignment I was given.
-The UI was done according to figma.
+The UI was done according to Figma provided.
 
 The app should contain 5 screens.
 
 - Welcome screen:
     - Root screen
     - When navigating from this screen, a user should not be able to go back.
-
+    - no restrictions were given for the name so I added a verification for the input.
+ 
 -  Bottom tabs layout
 
     - Home screen: * default screen *
         -  Expenses filter modal
         - Create / Edit expense modal
-    - Profile screen (no requirements given. I added username verification)
+    - Profile screen
         
 ● Welcome Screen
 - A user should be able to insert his full name and submit.
@@ -26,14 +27,15 @@ The app should contain 5 screens.
 - Should present all the expenses and the total amount.
 - The expenses list should be sectioned by dates.
 - The expenses list should be ordered by a descending date.
-- Should allow filtering expenses by title, amount or date.
+- Should allow filtering expenses by title, amount, or date.
+- No UI was provided for the filter by buttons - I've added them for better UI/UX. 
 
 ● Create / Edit expense Modal
 - Expense must have the current properties:
     - Title
     - Amount
     - Date
-- A user should be able either to create a new expense or edit / remove an existing one.
+- A user should be able to either create a new expense or edit / remove an existing one.
 - Changes should take effect only when pressing the “Create / Save” button.
 
 ● Expenses Filters Modal
@@ -43,5 +45,5 @@ The app should contain 5 screens.
   
 ● Profile Screen
 - A user should see his full name in the navigation top bar title.
-- Should present number of total expenses items
+- Should present the number of total expense items.
 - A user should be able to sign out from the app.
